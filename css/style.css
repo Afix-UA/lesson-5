@@ -1,0 +1,87 @@
+/* Скидання стилів */
+@import url("reset.css");
+@import url("fonts.css");
+
+/* Основні стилі */
+body{
+font-family: 'Inter', sans-serif;
+}
+.title {
+    font-family: "ZvinSerif", sans-serif;
+    text-shadow: 1px 5px 4px #560661;
+    font-size: 50px;
+}
+.btn {
+    color: rgba(0, 0, 255, 0.945);
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.ps {
+    font-family: "ZvinSerif", sans-serif;
+    line-height: 1.4;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.ps span {
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.skrin-title,.skrin-subtitle, .Project-title{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.26;
+    font-weight: 600;
+    
+}
+.skrin-title {
+    color: #37393F;
+    font-size: 30px;
+    
+}
+.skrin-text {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.44; /* 26/18 */
+    
+}
+.skrin-subtitle {
+    color: #6B77E5;
+    font-size: 20px;
+    
+    
+
+}
+
+.Project-title {
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.27;
+}
+
+.articles-title {
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.articles-text {
+    color:#444;
+    word-spacing: 10px;
+
+}
+.articles-img {
+    text-align: center;
+}
+
+
+
